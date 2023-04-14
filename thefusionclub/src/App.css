@@ -1,3 +1,14 @@
-.App {
+.gelatine {
+  animation: gelatine 1.5s infinite;
+}
+
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.975, 1.05); }
+  50% { transform: scale(1.05, 0.975); }
+  75% { transform: scale(0.975, 1.05); }
+}
+
+.disco-cursor {
   cursor: url('./resources/cursor.png'), auto;
 }
