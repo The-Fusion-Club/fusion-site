@@ -2,6 +2,16 @@
   animation: gelatine 1.5s infinite;
 }
 
+.trapped-background {
+  background-image: url('./resources//trapped-poster.png');
+  background-size: contain;
+  background-repeat: round;
+}
+
+#event-pane {
+  transition: 50ms;
+}
+
 @keyframes gelatine {
   from, to { transform: scale(1, 1); }
   25% { transform: scale(0.975, 1.05); }
