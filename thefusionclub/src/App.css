@@ -2,14 +2,41 @@
   animation: gelatine 1.5s infinite;
 }
 
-.trapped-background {
-  background-image: url('./resources//trapped-poster.png');
+.trapped {
+  background-image: url('./resources/trapped-poster.png');
   background-size: contain;
   background-repeat: round;
+  color: rgb(250, 60, 60);
 }
-
-#event-pane {
-  transition: 50ms;
+.inauguration {
+  background-image: url('./resources/inaugration.jpeg');
+  background-size: contain;
+  background-repeat: round;
+  color: rgb(149, 224, 224);
+}
+.thinkers {
+  background-image: url('./resources/thinkers.jpeg');
+  background-size: contain;
+  background-repeat: round;
+  color: rgb(135, 242, 196);
+}
+.himym {
+  background-image: url('./resources/himym.jpeg');
+  background-size: contain;
+  background-repeat: round;
+  color: rgb(255, 176, 107);
+}
+.cosplay {
+  background-image: url('./resources/cosplay.png');
+  background-size: contain;
+  background-repeat: round;
+  color: rgb(165, 138, 255);
+}
+.gravity {
+  background-image: url('./resources/wavylines.jpg');
+  background-size: contain;
+  background-repeat: round;
+  color: rgb(231, 113, 255);
 }
 
 @keyframes gelatine {
