@@ -35,7 +35,7 @@ const Events = () => {
             <section className="h-screen w-100 bg-white flex flex-row">
                 <aside className="md:flex p-5 select-none hidden md:w-2/6 lg:w-1/5 bg-black justify-center">
                     <nav className='h-full flex flex-col justify-around w-full bg-black rounded-lg pl-5 pr-5 border-gray-100'>
-                    <h1 onClick={() => navigate('/#hero-section')} style={activeDateStyle} className='text-gray-500 w-full text-center md:text-left font-bold text-xl'>← Back</h1>
+                    <h1 onClick={() => navigate('/')} style={activeDateStyle} className='text-gray-500 cursor-pointer w-full text-center md:text-left font-bold text-xl'>← Back</h1>
                         {
                             eventlist.map((item) => {
                                 return( 

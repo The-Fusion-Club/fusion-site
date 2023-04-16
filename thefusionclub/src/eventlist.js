@@ -25,7 +25,7 @@ export const eventlist = [
         name: 'Young Thinkers Conclave',
         date: 'September 28, 2022',
         background: 'thinkers',
-        description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptas quos accusantium excepturi enim ullam voluptatum fuga ea eaque dignissimos. Eveniet, quod. Ullam vel, quod commodi vero facere magni aliquid.',
+        description: 'We organised an interactive session where over 200 students got to discuss the role of youth in the future of India with Mr. Lokesh Sharma, one of the founding members of the Young Thinkers Forum. ',
     },
     {
         key: 4,
